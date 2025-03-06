@@ -1,6 +1,6 @@
 from tree_utils.struct_tree_out import print_tree
 
-path = "../my-python-templete"
+path = "../for_llm_upgrade"
 exclude_dirs_set = {
     "z_utils",
     ".env",

@@ -13,7 +13,7 @@ class LMConfig(PretrainedConfig):
         n_kv_heads: int = 2,
         vocab_size: int = 6400,
         hidden_dim: int = None,
-        multiple_of: int = 64,
+        multiple_of: int = 64,  # 确保隐藏层维度 hidden_dim 是 multiple_of=64 的倍数
         norm_eps: float = 1e-5,
         max_seq_len: int = 8192,
         rope_theta: int = 1e6,
